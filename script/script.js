@@ -46,7 +46,7 @@ function gantiGambar(a) {
   btn.textContent = "next"
   ctn.style.backgroundColor = "white"
   setTimeout(()=> {
-    img.src = "/img/mini.gif"
+    img.src = "./img/mini.gif"
   }, 100)
   ucapanCetak()
 }
@@ -97,7 +97,7 @@ function hapusKue(){
   btn_2.style.display = "block"
   btn_2.textContent = "Sonrie*"
   btn_3.style.display = "none"
-  img.src = "/img/pato.gif"
+  img.src = "./img/pato.gif"
   img.style.width = "200px"
 }
 function fullLayar() {
