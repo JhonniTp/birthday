@@ -18,7 +18,7 @@ const nombre_creador = "Pudin (Insano) Presenta..."
 const nombre = ""
 
 let n = 0
-const link_wa = `https://api.whatsapp.com/send?text=Gracias ${nombre_creador} te dare 6000 bolivianos y mañana de dare otros 6000 mas...y tienes razón EL BICHO es mejor que messi (gey) Y POR ESO GRITARE SIUUUUUUUU!!  &phone=${numero_creador}`
+//const link_wa = `https://api.whatsapp.com/send?text=Gracias ${nombre_creador} te dare 6000 bolivianos y mañana de dare otros 6000 mas...y tienes razón EL BICHO es mejor que messi (gey) Y POR ESO GRITARE SIUUUUUUUU!!  &phone=${numero_creador}`
 nm.textContent = nombre
 nm_2.textContent = nombre_creador
 
