@@ -27,7 +27,7 @@ const kata = [
 `¡Hoy cumplo años y quiero celebrar contigo! 🥳`,
 `Te invito a mi fiesta de cumpleaños 🎂`,
 `Será en el Colegio JOHN WESLEY 📍`,
-`El día: 16 de marzo, a las 12:00 PM ⏰`,
+`El día: 16 de marzo, a las 1:40 PM ⏰`,
 `Habrá juegos, música, sorpresas y pastel delicioso 🍰🎵`,
 `Bailaremos, reiremos y crearemos recuerdos mágicos 💃🕺`,
 `Tu presencia hará mi día aún más especial 💛✨`,
