@@ -12,9 +12,15 @@
 <body>
   <div id="kotak-pesan">
     <div class="pesan">
-      <span id="nama"></span>
-      <span id="nama2"></span>
-      <button onclick="exit()">INICIAR</button>
+      <div class="welcome-text">
+        <h1>🎉 ¡Feliz Cumpleaños! 🎂</h1>
+        <p id="nama">Estás invitado a una celebración especial</p>
+        <p id="nombre-festivo">✨ Una fiesta mágica te espera ✨</p>
+      </div>
+      <button onclick="exit()" class="start-btn">
+        <span class="btn-icon">🎈</span>
+        <span class="btn-text">COMENZAR CELEBRACIÓN</span>
+      </button>
     </div>
   </div>
   <audio src="./sound/golden.mp3"  id="musik"></audio>
@@ -26,10 +32,12 @@
       </div>
       <div class="bawah" id="bawah">
         <p id="ucapan"></p>
-        <button id="btn" onclick="gantiGambar(this)">Bienvenida 😊</button>
-        <button id="btn_2" onclick="ucapanCetak()">next</button>
-        <button id="btn_3" onclick="hapusKue()">next</button>
-        <a id="link" >Enviar mucho dinero a Pudin</a>
+        <button id="btn" onclick="gantiGambar(this)">🎉 ¡Comenzar la magia! 🎊</button>
+
+        <button id="btn_2" onclick="ucapanCetak()">➡️ Siguiente</button>
+        <button id="btn_3" onclick="hapusKue()">🎈 Continuar</button>
+        <button id="link" onclick="explosionCelebracion()">🎂 ¡FELIZ CUMPLEAÑOS<br>ALISON! 🎊🎈🎇</button>
+        <div id="mensajeFinal" class="mensaje-final">¡No faltes! 🎉</div>
       </div>
     </div>
   </div>
